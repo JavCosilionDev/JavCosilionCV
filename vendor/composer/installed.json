@@ -59,31 +59,6 @@
             "install-path": "../brick/math"
         },
         {
-<<<<<<< HEAD
-            "name": "mercadopago/dx-php",
-            "version": "3.0.5",
-            "version_normalized": "3.0.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mercadopago/sdk-php.git",
-                "reference": "c0c6b738a3f8517ef941c218bb7e44d1ad93fd5e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mercadopago/sdk-php/zipball/c0c6b738a3f8517ef941c218bb7e44d1ad93fd5e",
-                "reference": "c0c6b738a3f8517ef941c218bb7e44d1ad93fd5e",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.2"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3.22",
-                "phpunit/phpunit": "^10.2",
-                "squizlabs/php_codesniffer": "3.*"
-            },
-            "time": "2024-04-09T18:05:55+00:00",
-=======
             "name": "doctrine/annotations",
             "version": "1.14.3",
             "version_normalized": "1.14.3.0",
@@ -116,14 +91,10 @@
                 "php": "PHP 8.0 or higher comes with attributes, a native replacement for annotations"
             },
             "time": "2023-02-01T09:20:38+00:00",
->>>>>>> b262dc7af468244d6950c4a3f0726367f3831328
             "type": "library",
             "installation-source": "dist",
             "autoload": {
                 "psr-4": {
-<<<<<<< HEAD
-                    "MercadoPago\\": "src/MercadoPago"
-=======
                     "Doctrine\\Common\\Annotations\\": "lib/Doctrine/Common/Annotations"
                 }
             },
@@ -628,7 +599,6 @@
                         "src/MercadoPago/Entities/",
                         "src/MercadoPago/Entities/Shared/"
                     ]
->>>>>>> b262dc7af468244d6950c4a3f0726367f3831328
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -638,17 +608,11 @@
             "description": "Mercado Pago PHP SDK",
             "homepage": "https://github.com/mercadopago/sdk-php",
             "support": {
-<<<<<<< HEAD
-                "source": "https://github.com/mercadopago/sdk-php/tree/3.0.5"
-=======
                 "source": "https://github.com/mercadopago/sdk-php/tree/2.6.2"
->>>>>>> b262dc7af468244d6950c4a3f0726367f3831328
             },
             "install-path": "../mercadopago/dx-php"
         },
         {
-<<<<<<< HEAD
-=======
             "name": "mercadopago/sdk",
             "version": "v0.5.6",
             "version_normalized": "0.5.6.0",
@@ -694,7 +658,6 @@
             "install-path": "../mercadopago/sdk"
         },
         {
->>>>>>> b262dc7af468244d6950c4a3f0726367f3831328
             "name": "phpmailer/phpmailer",
             "version": "v6.9.1",
             "version_normalized": "6.9.1.0",
@@ -779,8 +742,6 @@
             "install-path": "../phpmailer/phpmailer"
         },
         {
-<<<<<<< HEAD
-=======
             "name": "psr/cache",
             "version": "3.0.0",
             "version_normalized": "3.0.0.0",
@@ -833,7 +794,6 @@
             "install-path": "../psr/cache"
         },
         {
->>>>>>> b262dc7af468244d6950c4a3f0726367f3831328
             "name": "ramsey/collection",
             "version": "2.0.0",
             "version_normalized": "2.0.0.0",
