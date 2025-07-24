@@ -1,0 +1,18 @@
+{
+    "name": "javcos/veguweb",
+    "description": "pagina web para comercio electronico de productos veterinarios",
+    "type": "project",
+    "license": "no-aplica",
+    "authors": [
+        {
+            "name": "Javier-Cosilion-y-Yadira-vazquez",
+            "email": "javiercosilion@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpmailer/phpmailer": "^6.5",
+        "mercadopago/dx-php": "^3.0",
+        "ramsey/uuid": "^4.7"
+    }
+}

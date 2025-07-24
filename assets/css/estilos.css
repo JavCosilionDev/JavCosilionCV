@@ -1,0 +1,149 @@
+.active>.page-link, .page-link.active {
+    background-color: #2194f7 !important;
+}
+.original-price {
+    text-decoration: line-through; /* Tachar el precio original */
+    color: #999; /* Darle un color gris para indicar que es el precio original */
+}
+
+.discounted-price {
+    color: #e44d26; /* Darle un color naranja al precio con descuento */
+}
+.card-text{
+    font-size: 0.8rem;
+    color: #8f8f8f;
+    margin: 0;
+}
+.envio{
+    font-size: 0.8rem;
+    color: #f57700;
+}
+.producto-box {
+    transition: transform 0.3s ease;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 93%;
+    padding: 9px;
+    box-shadow: 0px 0px 7px #00000030;
+}
+  
+.producto-box:hover {
+transform: scale(0.99);
+}
+
+.product-grid{
+    font-family:sans-serif;
+    text-align: center;
+}
+.product-grid .product-image{
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    border: 2px solid #ececec;
+}
+.product-grid .product-image a.image{display: block; }
+.product-grid .product-image img{
+    width: 100%;
+    height: auto;
+}
+
+.product-discount-label{
+    color: #ffffff;
+    background: #6bb93c;
+    font-size: 150%;
+    font-weight: 500;
+    padding: 6px 12px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: 5;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px #00000050;
+}
+.product-grid .product-links{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: -50px;
+    transition: all .5s ease 0s;
+}
+.product-grid:hover .product-links{ 
+    right: 10px; 
+}
+.product-grid .product-links li a{
+    color: #333;
+    background: transparent;
+    font-size: 17px;
+    line-height: 38px;
+    width: 38px;
+    height: 38px;
+    border: 1px solid #333;
+    border-bottom: none;
+    display: block;
+    transition: all 0.3s;
+}
+.product-grid .product-links li:last-child a{ border-bottom: 1px solid #333; }
+.product-grid .product-links li a:hover{
+    color: #fff;
+    background: #333;
+}
+.product-grid .add-to-cart{
+    background: #00309b;
+    color: #fff;
+    font-size: .8rem;
+    padding: 5% !important;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -150px;
+    transition: all 0.3s ease 0s;
+    border: 0;
+}
+.product-grid:hover .add-to-cart{ 
+    bottom: 0; 
+    border-radius: 5px;
+    margin-top: 0.2rem;
+}
+
+.product-grid .add-to-cart:hover{ 
+    /* text-shadow: 4px 4px rgba(0,0,0,0.2);  */
+    background-color: #6bb93c;
+}
+
+.product-grid .product-content{
+    padding: 10px 0px;
+}
+.product-grid .title{
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.product-grid .title a{
+    color: #000000;
+    transition: all 0.3s ease 0s;
+}
+.product-grid .title a:hover{
+     color: #6bb93c; 
+}
+
+
+.product-grid .price{
+    color: #0d0d0d;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.product-grid .price span{
+    color: #888;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+@media screen and (max-width: 990px){
+    .product-grid{ margin-bottom: 30px; }
+}
